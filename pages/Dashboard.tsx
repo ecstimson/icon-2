@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { 
-  User, Calendar, Clock, MapPin, CreditCard, Settings, LogOut, 
+  User, Calendar, CreditCard, Settings, LogOut, 
   Plus, Car, Download, Phone, Mail, Navigation, Star, Edit2, Minus, X
 } from 'lucide-react';
 import Button from '../components/ui/Button';
 import { MOCK_USER, MOCK_TRIPS, MOCK_PAYMENT_METHODS, FLEET, SERVICES } from '../constants';
-import { Trip, TripGuest, PaymentMethod } from '../types';
+import { Trip, TripGuest } from '../types';
 
 type Tab = 'overview' | 'trips' | 'profile' | 'wallet';
 

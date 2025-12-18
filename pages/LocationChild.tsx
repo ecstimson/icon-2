@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
-import { LOCATIONS, COMPANY_PHONE } from '../constants';
+import { LOCATIONS } from '../constants';
 import Button from '../components/ui/Button';
 import { MapPin, ArrowRight } from 'lucide-react';
 

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Button from '../components/ui/Button';
 import { COMPANY_PHONE, COMPANY_EMAIL, COMPANY_ADDRESS } from '../constants';
-import { Mail, Phone, MapPin, Facebook, Instagram } from 'lucide-react';
+import { Mail, Phone, MapPin } from 'lucide-react';
 
 const About: React.FC = () => {
   return (

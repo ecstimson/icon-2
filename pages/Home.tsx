@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Plane, Clock, Calendar, ArrowRight, MapPin, Quote } from 'lucide-react';
 import Button from '../components/ui/Button';
-import { SERVICES, LOCATIONS, TESTIMONIALS, COMPANY_PHONE, COMPANY_EMAIL } from '../constants';
+import { SERVICES, LOCATIONS, TESTIMONIALS, COMPANY_PHONE } from '../constants';
 
 const Home: React.FC = () => {
   return (
